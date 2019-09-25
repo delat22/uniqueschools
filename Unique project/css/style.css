@@ -1,0 +1,108 @@
+
+@import url('https://fonts.googleapis.com/css?family=Lato&display=swap');
+
+body{
+
+	font-family: 'Lato', sans-serif;;
+	background-color: #fff;
+	display: flex;
+	flex-direction: row;
+		}
+
+	p{
+		padding-top:-1em;
+	}
+		.wrapper{
+			display: flex;
+			flex-direction: row;
+		}
+		#left {
+			display: flex;
+			flex-direction: column;
+			flex: 1;
+			align-items: center;
+			justify-content: center;
+			background-color: rgb(211, 211, 211);
+			 height: 100vh;
+			
+		}
+		#right{
+			flex: 1;
+			background-color: rgb(220, 220, 220);
+		}
+		#sub-group {
+			display: flex;
+			flex-direction: row;
+
+		}
+		.sub-left {
+			display: flex;
+			flex-direction: column;
+			flex: 1;
+			align-items: center;
+			justify-content: center;
+			
+
+		}
+		.shift{
+             padding-bottom: 5em;
+		}
+
+		.up {
+			padding-top: 2em;
+
+		}
+
+
+
+		.sub-right {
+			display: grid;
+			flex: 1;
+			
+		}
+
+
+		h2 {
+
+			  display: block;
+			  min-height: 20px;
+			  background-repeat: no-repeat;
+			  background-size: 30px 30px;
+			  padding: 0 0 0 30px;
+			  margin: 0 0 10px;
+			  font-weight: 400;
+		}
+
+		.img1 {
+			background-image: url('../img/science.png');
+
+		}
+
+		}
+
+		.img2 {
+			background-image: url('../img/teacher.png');
+
+		}
+
+		.img3 {
+			background-image: url('../c/img/science.png');
+
+		}
+
+		.img4 {
+			background-image: url('../img/student.png');
+
+		}
+
+		.img5 {
+			background-image: url('../img/science.png');
+
+		}
+
+		.img6 {
+			background-image: url('../c/img/port.png');
+
+		}
+
+		
